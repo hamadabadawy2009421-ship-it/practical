@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-color: #2828e7;
+}
+header{
+    display: flex;
+    padding:20px 5px 0px 40px;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+nav{
+    padding-top: 10px;
+    display: flex;
+    gap: 30px;
+    margin-left:530px;
+}
+nav a:hover{
+    color: rgb(255, 173, 21);
+}
+nav a{
+    font-size:18px;
+}
+header button{
+    margin-left:480px;
+    border: hidden;
+    border-radius:10px;
+    background-color: #f3f302;
+    padding-inline: 40px;
+    color:#3030c7;
+}
+ header button {
+    cursor: pointer;
+}
+header button:hover{
+    transform:translateY(-5px);
+    background-color: orange;
+}
+header button a{
+    color: #3030c7;
+}
+.h2{
+    margin: 5px;
+    font-size: 30px; 
+}
+.h1{
+    margin: 5px;
+    font-size: 30px;
+    margin-left: 5px;
+    color: yellow;
+}
+main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+}
+section{
+    margin-top: 10%;
+}
+section :nth-child(1){
+    font-size: 30px;
+    display: inline-block;
+}
+section :nth-child(2){
+    margin-bottom: 20px;
+    color: yellow;
+    font-size: 30px;
+    margin-left: 5px;
+    display: inline-block;
+}
+section button{
+    border: hidden;
+    border-radius:10px;
+    background-color: yellow;
+    padding-inline: 20px;
+    padding-block:5px;
+
+}
+section button:hover{
+    transform:translateY(5px);
+    background-color: orange;
+}
+section button a{
+    color: #3030c7;
+}
+.p{
+    margin-bottom: 20px;  
+}
+img{
+    margin-left: 250px;
+    height: 500px;
+    width: 600px;
+    border-radius: 20px;
+}
+

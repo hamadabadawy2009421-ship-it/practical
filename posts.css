@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+main{
+    display: flex;
+    height: 100vh;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    position: absolute;
+    margin-left: 10px;
+}
+img{
+    width: 412px;
+    height: 200px;
+    border-radius:10px 10px 0px 0px ;
+}
+.details{
+    display: flex;
+    gap: 210px;
+    color: darkgray;
+}
+.card{
+    box-sizing: border-box;
+    height: 480px;
+    border-radius:10px;
+    box-shadow:10px 10px 20px #97948d;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.card:hover{
+    transform:translateY(-10px);
+}
+h2{
+    margin-left: 10px;
+}
+p{
+    margin-left: 5px;
+}
+a{
+    margin-left: 5px;
+    text-decoration: none;
+    color: #014dcf;
+}
+button{
+    background-color: #014dcf;
+    border-radius: 40px;
+    margin-top: 10px;
+    color: white;
+    border: hidden;
+    padding-inline:10px;
+    padding-block: 5px;
+}
+h1{
+    margin-left: 42.5%;
+    margin-top: 7%;
+    font-size: 40px;
+    position: absolute;
+}
+.back{
+    border: hidden;
+    border-radius:10px;
+    background-color: hsl(60, 27%, 98%);
+    padding-inline: 40px;
+    margin:30px 0px 0px 30px;
+    box-shadow:3px 3px 10px #bcb8af;
+}
+.back:hover{
+    transform: translateY(-5px);
+}
+.back{
+    cursor: pointer;
+}
+.back a{
+    color:#3030c7;
+    font-size: 25px;
+
+}
