@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 body{
+    font-size: 17px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     color: white;
     background-color: #191978;
@@ -20,7 +21,7 @@ nav{
     padding-top: 10px;
     display: flex;
     gap: 30px;
-    margin-left:530px;
+    margin-left:500px;
 }
 nav a:hover{
     color: rgb(255, 173, 21);
@@ -29,14 +30,16 @@ nav a{
     font-size:18px;
 }
 header button{
+    height: 40px;
     margin-left:480px;
     border: hidden;
     border-radius:10px;
-    background-color: #f3f302;
-    padding-inline: 40px;
+    background-color: #d5d503;
+    padding-inline: 30px;
     color:#3030c7;
+    transition: transform 1s ease;
 }
- header button {
+header button {
     cursor: pointer;
 }
 header button:hover{
@@ -44,15 +47,16 @@ header button:hover{
     background-color: orange;
 }
 header button a{
+    font-size: 18px;
     color: #3030c7;
 }
 .h2{
     margin: 5px;
-    font-size: 30px; 
+    font-size:40px; 
 }
 .h1{
     margin: 5px;
-    font-size: 30px;
+    font-size: 40px;
     margin-left: 5px;
     color: yellow;
 }
@@ -64,33 +68,36 @@ main{
 section{
     margin-top: 10%;
 }
-section :nth-child(1){
-    font-size: 30px;
+.we{
+    font-size: 35px;
     display: inline-block;
 }
 section :nth-child(2){
     margin-bottom: 20px;
     color: yellow;
-    font-size: 30px;
+    font-size: 35px;
     margin-left: 5px;
     display: inline-block;
 }
-section button{
+ button{
+    font-size: 25px;
     border: hidden;
     border-radius:10px;
     background-color: yellow;
     padding-inline: 20px;
-    padding-block:5px;
+    padding-block: 3px;
+    transition: transform 2s ease;
 
 }
-section button:hover{
-    transform:translateY(5px);
+button:hover{
+    transform:translateY(10px);
     background-color: orange;
 }
-section button a{
+button a{
     color: #3030c7;
 }
 .p{
+    margin-left: 5px;
     margin-bottom: 20px;  
 }
 img{
