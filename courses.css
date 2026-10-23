@@ -59,7 +59,7 @@ h1{
     padding-block: 5px;
     margin:20px 0px 0px 20px;
     box-shadow:3px 3px 10px #bcb8af;
-    transition: transform 1s ease;
+    transition: transform 2s ease;
 }
 .back:hover{
     transform: translateY(-10px);
